@@ -23,6 +23,7 @@ public class TestSum {
 
         }
         System.out.println("sum1 = " + sum1);
-
+      //BUG修复
+        //ooooooooooooooo
     }
 }
