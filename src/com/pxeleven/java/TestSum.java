@@ -23,7 +23,13 @@ public class TestSum {
 
         }
         System.out.println("sum1 = " + sum1);
-      //BUG修复
-        //ooooooooooooooo
+
+        int b=1;
+        int sum2=0;
+        for (int m = 100; m > 0; m--) {
+            sum2+=b;
+            b++;
+        }
+        System.out.println("sum2 = " + sum2);
     }
 }
