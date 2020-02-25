@@ -8,16 +8,18 @@ package com.pxeleven.java;
         public static void main(String[] args) {
             int b=0;
             for(int i=1;i<=10000;i++) {
-                 if (i % 5 == 0) {
+                if (i % 5 == 0) {
                         System.out.print(i+"\t");
                         b++;
-                 }
-                if (b%5==0) {
-                    System.out.println();
 
+                 }
+                if (b==5) {
+                    System.out.println();
+                    b=0;
                 }
             }
 
         }
 
   }
+
