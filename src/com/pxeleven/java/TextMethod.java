@@ -13,16 +13,16 @@ public class TextMethod {
         String sum1=textMethod.add("this","is","pwj");
         System.out.println(sum1);
     }
-    void print(){
+    public static void print(){
         System.out.println("彭文君");
         System.out.println("彭文芬");
         System.out.println("彭奕萱");
     }
-    int add(int a,int b,int c){
+    public static int add(int a,int b,int c){
         int sum=a+b+c;
         return sum;
     }
-    String add (String a, String b, String c){
+    public String add (String a, String b, String c){
         String sum= a+" "+b+" "+c;
         return sum;
     }

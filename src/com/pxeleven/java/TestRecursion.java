@@ -17,6 +17,12 @@ public class TestRecursion {
         long d4 =System.currentTimeMillis();
         System.out.printf("消耗的时间为%dms%n",d4-d3);
 
+        TextMethod tx = new TextMethod();
+        tx.print();
+        int sum=tx.add(12,13,14)+11;
+        System.out.println(sum);
+
+
     }
     static long fact(int n){
         if (n==1){
