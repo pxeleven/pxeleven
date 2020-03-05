@@ -13,9 +13,10 @@ public class SxtStu {
 
     Computer  comp;  //计算机
 
+
     //方法
     void  study(){
-        System.out.println("我在认真学习！！,使用电脑："+comp.brand);
+        System.out.println("我在认真学习！！,使用电脑："+comp.brand+comp.brands);
     }
 
     void  play(){
@@ -33,14 +34,16 @@ public class SxtStu {
         SxtStu  stu = new SxtStu();   //创建一个对象
         stu.id=1001;
         stu.sname= "高淇";
-        stu.age = 18;
+
+
+        stu.play();        stu.age = 18;
 
         Computer  c1 = new Computer();
         c1.brand = "联想";
+        c1.brands= "华硕";
 
         stu.comp = c1;
-
-        stu.play();
+        //System.out.println(c1.brand);
         stu.study();
 
     }
@@ -48,6 +51,7 @@ public class SxtStu {
 
 class  Computer {
     String  brand;
+    String  brands;
 }
 
 
