@@ -6,7 +6,7 @@ package com.pxeleven.java;
  */
 public class TestFor01 {
     public static void main(String[] args) {
-        for(int i=1;i<=19;i++){
+        for(int i=1;i<=9;i++){
             for(int j=1;j<=i;j++){
                // System.out.print(j+"*"+i+"="+ (i*j<100?(i*j)+"    ":(i*j>100)?(i*j)+"   ":(i*j))+"\t");
                 System.out.print(j+"*"+i+"="+ (i*j<100?(i*j)+"    ":(i*j)+"   ")+"\t");
