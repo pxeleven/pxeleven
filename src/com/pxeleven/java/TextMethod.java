@@ -8,7 +8,7 @@ public class TextMethod {
     public static void main(String[] args) {
         TextMethod textMethod = new TextMethod();
         textMethod.print();
-        int sum=textMethod.add(12,13,14)+11;
+        int sum=textMethod.add(12,13,14);
         System.out.println(sum);
         String sum1=textMethod.add("this","is","pwj");
         System.out.println(sum1);
