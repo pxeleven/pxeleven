@@ -12,6 +12,7 @@ public class TextMethod {
         System.out.println(sum);
         String sum1=textMethod.add("this","is","pwj");
         System.out.println(sum1);
+
     }
     public static void print(){
         System.out.println("彭文君");
