@@ -15,6 +15,10 @@ public class Testextends {
         Testextends ts = new Testextends();
         int sum=ts.add(11,12,13);
         System.out.println(sum);
+
+        System.out.println(stu2 instanceof students2);
+        System.out.println(stu2 instanceof person);
+        System.out.println(new person() instanceof students2);
     }
     public static int add(int a,int b,int c ){
         int sum=a+b+c;
